@@ -1,13 +1,11 @@
 <a id="readme-top"></a>
 # About The Project
-SimpleFS shows how a real file system works on the inside.  
-It creates a small disk image file and lets you add files into it.  
-It uses a superblock, bitmaps, inodes, and a root directory, just like real file systems do, but in a much simpler way. Made for the CSE321 (Operating Systems) Lab Project at BRAC University.
+SimpleFS shows how a real file system works on the inside. It creates a small disk image file and lets you add files into it. It uses a superblock, bitmaps, inodes, and a root directory, just like real file systems do, but in a much simpler way. Made for the CSE321 (Operating Systems) Lab Project at BRAC University.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Built With
-![C](https://img.shields.io/badge/C-C11-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
-![GCC](https://img.shields.io/badge/GCC-Compiler-A42E2B?style=for-the-badge&logo=gnu&logoColor=white)
+* ![C](https://img.shields.io/badge/C-C11-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
+* ![GCC](https://img.shields.io/badge/GCC-Compiler-A42E2B?style=for-the-badge&logo=gnu&logoColor=white)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Project Overview
