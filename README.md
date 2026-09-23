@@ -9,14 +9,14 @@ SimpleFS shows how a real file system works on the inside. It creates a small di
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Project Overview
-## Key Features
+### Key Features
 - Creates a 256 KB disk image (64 blocks, 4 KB each)
 - Sets up the superblock, inode bitmap, data bitmap, and inode table
 - Creates a root directory with `.` and `..`
 - Adds normal files into the image
 - Finds free inodes and blocks using first-fit
 - Checks for errors (bad image, file too big, duplicate name, no free space)
-## Disk Layout
+### Disk Layout
 | Block | What it holds  |
 |-------|----------------|
 | 0     | Superblock     |
@@ -24,12 +24,12 @@ SimpleFS shows how a real file system works on the inside. It creates a small di
 | 2     | Data bitmap    |
 | 3     | Inode table    |
 | 4–63  | Data blocks    |
-## Project Files
+### Project Files
 - `simplefs.h`: shared structs and constants
 - `simplefs_builder.c`: makes a new empty disk image
 - `simplefs_adder.c`: adds a file into the image
 - `test1.txt`, `test2.txt`, `test3.txt`: sample files for testing
-## Limits
+### Limits
 - Only one folder (the root directory)
 - Max 32 inodes
 - Max file size: 12 KB (3 blocks)
